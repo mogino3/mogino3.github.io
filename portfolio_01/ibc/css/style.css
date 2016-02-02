@@ -1,0 +1,365 @@
+/*clearfix/////////////////////*/
+.clearfix{
+  z-index: 1;
+}
+.clearfix:after{
+  content:"";
+  display: block;
+  clear: both;
+}
+
+.snsArea ul li{
+  list-style: none;
+}
+h2{
+  text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
+}
+span.yellow{
+  background-color: yellow;
+}
+
+/*////////////////////////////////
+ここから
+///////////////////////////// */
+
+header.intro{
+  padding-bottom: 150px;
+}
+header.intro .intro-body h1{
+  text-shadow: 5px 5px 4px rgba(204, 204, 255, 1);
+}
+
+
+header.intro .intro-body p.intro-text{
+  background: rgba(51,51,51,0.6);
+
+}
+header.intro .intro-body .snsArea{
+  margin: 150px 0 0 -30px;
+}
+header.intro .intro-body .snsArea ul li{
+  float:left;
+  margin-left: 10px;
+}
+section{
+  width: 100%;
+  padding:0;
+  color: #000;
+
+}
+section .wrapp{
+  padding-top: 200px;
+  background-color: rgba(253,246,246,0.7);
+  width: 80%;
+}
+
+
+/*/////////////////////////
+section#target
+//////////////////*/
+section#target{
+  background: url("../sozai/b_bg.jpg") repeat center center scroll;
+  /*background-color: #000;*/
+  /*-webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+
+  -o-background-size: cover;*/
+
+
+}
+section#target .wrapp .thumbnail img{
+  width: 80%;
+  border-radius: 10px;
+}
+
+
+
+/*/////////////////////////
+.thumbnail全般
+//////////////////*/
+
+section .wrapp .thumbnail{
+  background-color: transparent;
+  border: none;
+}
+section .wrapp .thumbnail h3{
+  min-height: 52px;
+  font-weight: 200;
+}
+
+
+section .wrapp .thumbnail .caption{
+  padding: 9px 0;
+
+}
+/*/////////////////////////
+section#future
+////////////////////////*/
+
+section#future{
+  background: url("../sozai/Fotolia_70307349_Subscription_Monthly_M.jpg") no-repeat center center scroll;
+  /*background-color: #000;*/
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+
+section#future .wrapp .thumbnail h3{
+  font-size: 183.333%;
+}
+
+section#future .wrapp .thumbnail img{
+  /*display: block;
+  width: 250px;
+  height: 200px;
+  border-radius: 50%;
+  */
+}
+
+/*/////////////////////////
+section#enviroment
+////////////////////////*/
+section#environment{
+  background: url("../sozai/about4_e.jpg") no-repeat center center scroll;
+  /*background-color: #000;*/
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+section#environment a img:hover{
+  cursor: pointer;
+}
+
+/*/////////////////////////
+section#curriculum
+////////////////////////*/
+section#curriculum{
+  background-image: -moz-linear-gradient(top, #ff1233, #ffad94);
+  background-image: -ms-linear-gradient(top, #ff1233, #ffad94);
+  background-image: -webkit-linear-gradient(top, #ff1233, #ffad94);
+  background-image: linear-gradient(top, #ff1233, #ffad94);
+  padding-bottom: 100px;
+
+}
+section#curriculum .wrapp{
+  background-color: transparent;
+}
+section#curriculum h2{
+  color: #fff;
+}
+section#curriculum .imageArea img{
+  width: 100%;
+  height: 100%;
+}
+section#curriculum .textArea {
+  margin: 20px 0;
+  background-color: #3D3D3D;
+  color: #F7F7F7;
+  padding: 15px 20px;
+}
+section#curriculum .textArea span.yellow {
+  color: #000;
+}
+section#curriculum table.table{
+  background-color: #F5F5F5;
+}
+
+section#curriculum table.table tr.title{
+  background-color: #639DBC;
+}
+
+/*/////////////////////////
+section#fql
+////////////////////////*/
+section#faq{
+  background: url("../sozai/fourth_bg.jpg") no-repeat center center scroll;
+  /*background-color: #000;*/
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+section#faq .wrapp{
+  background-color: rgba(253,246,246,0.4);
+  width: 100%;
+}
+section#faq .contentsArea{
+  margin-bottom: 20px;
+}
+
+section#faq h3{
+  color: #C42847;
+  padding-left: 15px;
+  border-left: solid red 3px;
+  background-color: rgba(242, 253, 255, 0.5);
+  text-align:left;
+}
+section#faq h4{
+  text-align:left;
+}
+section#faq .qaArea{
+  background-color:  rgba(242, 253, 255, 0.5);
+  border-radius: 10px;
+  padding: 20px;
+}
+section#faq .qaArea p{
+  font-size: 14px;
+  text-align: left;
+}
+
+/*/////////////////////////
+section#entry
+////////////////////////*/
+section#entry{
+  background-color: #EAE8FF;
+    width: 100%;
+}
+section#entry .wrapp{
+  background:transparent;
+}
+section#entry .wrapp h3{
+  text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
+}
+section#entry .wrapp table.styeType,
+section#entry .wrapp table.styeType th,
+section#entry .wrapp table.styeType td{
+  border: none;
+}
+
+section#entry .wrapp table th{
+  text-align: center;
+}
+section#entry .wrapp table tr.type h4{
+  color: #C42847;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+section#entry .wrapp table tr.cost1{
+  background-color: #EDFBC1;
+}
+section#entry .wrapp table tr.cost2{
+  background-color: #BFCBC2;
+}
+section#entry .wrapp table tr.text{
+  background-color: #fff;
+  border: dotted 2px #C42847;
+}
+section#entry .wrapp table tr.arrow{
+  color: #C42847;
+}
+
+/*/////////////////////////
+footer
+////////////////////////*/
+
+footer img{
+  width: 100%;
+}
+
+
+
+p .phoneButton{
+  display: block;
+  margin: 0 auto;
+  color: #fff;
+  background-color: #53599A;
+  padding: 5px 50px;
+  border-radius: 10px;
+  width: 70%;
+}
+
+p .entryButton{
+  display: block;
+  margin: 0 auto;
+  color:#fff;
+  background-color: #ec5d57;
+  padding: 5px 50px;
+  border-radius: 10px;
+  width: 70%;
+}
+
+/*//////////////////////////////////
+entry.html
+/////////////////////////////////// */
+
+label{
+  white-space:nowrap;
+}
+span.required{
+  color: #fff;
+  margin-right: 20px;
+  padding: 5px 10px;
+  background-color: red;
+  border-radius: 10px;
+
+}
+
+/*//////////////////////////////////
+complete.html
+/////////////////////////////////// */
+
+
+}
+
+
+/*//////////////////////////////////
+modal
+/////////////////////////////////// */
+.modal-content{
+  background-color: transparent;
+  box-shadow: none;
+  border: none;
+}
+.modal-header{
+  border-bottom: none;
+}
+button.close{
+  background-color: #fff;
+  opacity: 1;
+}
+/*===============================================
+●modalに関して 画面の横幅が768px以上
+===============================================*/
+@media screen and (min-width: 768px){
+.modal-daialog{
+  width: 100%;
+  }
+}
+
+
+
+
+/*===============================================
+●style.css 画面の横幅が768px以下
+===============================================*/
+@media screen and (max-width: 768px){
+  header.intro .intro-body .snsArea{
+    margin: -10px 0 0 -30px;
+  }
+  section#target .wrapp .thumbnail img{
+    width: 100%;
+  }
+    section#future .wrapp .thumbnail img{
+      border-radius: 10px;
+    }
+}
+/*===============================================
+●style.css 画面の横幅が768px以上
+===============================================*/
+@media screen and (min-width: 768px){
+  section .wrapp .caption p{
+    font-size: 14px;
+  }
+  .curriculum .textArea p{
+    font-size: 18px;
+  }
+  footer .col-md-2{
+    float: left;
+    padding: 0;
+  }
+}
