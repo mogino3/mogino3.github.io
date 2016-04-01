@@ -1,12 +1,10 @@
 $(function(){
-  $('.text_01').hover(
-    function(){
-    $(this).css("color","red");
-  },
-    function(){
-      $(this).css("color","#fff");
-    }
-);
+  // $('.text_01').hover(function(){
+  //   $(this).css("color","red");
+  // },
+  //   function(){
+  //     $(this).css("color","#fff");
+  //   });
 
     //ページ内スクロール
     $(".scroll_btn").click(function () {
@@ -17,9 +15,9 @@ $(function(){
     });
 
 });
+
 // 一連の処理
-$( function()
-{
+$( function(){
 	// グローバル変数
 	var syncerTimeout = null ;
 	// スクロールイベントの設定
