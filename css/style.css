@@ -130,10 +130,12 @@ section .titleArea{
 header nav a{
   color: #fff;
 }
+header nav .minheight_50{
+    padding: 18px 0;
+}
 header nav p {
   color: #fff;
   text-align: center;
-  margin-top: 10px;
 }
 header h1{
   color: #403233;
