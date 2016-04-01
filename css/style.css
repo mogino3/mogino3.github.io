@@ -118,7 +118,6 @@ section .titleArea{
   padding: 10px 0 0 20px;
 }
 .logo{
-  color: #f9ebe0;
   font-size: 250%;
   font-family:MS Sans Serif;
   text-align: center;
@@ -127,6 +126,13 @@ section .titleArea{
 .logo p {
   font-weight: bold;
 }
+.logo p a{
+  color: #f9ebe0;
+}
+.logo p a:hover{
+    text-decoration: none;
+}
+
 header nav a{
   color: #fff;
 }
