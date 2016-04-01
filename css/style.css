@@ -269,6 +269,9 @@ width:991px 以下
   .section_01 p.name{
     font-size: 480%;
 }
+.section_02{
+    margin-top: -10px;
+}
 /*////////////////////////////
 width:767px 以下
  /////////////////////////*/
